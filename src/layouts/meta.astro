@@ -1,0 +1,58 @@
+---
+type Props = {
+  title: string;
+};
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- CONFIGURATIONS -->
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- BASIC SEO -->
+    <meta
+      name="Keywords"
+      content="mayerli,diaz,paz,portafolio,marketing,digital"
+    />
+    <meta name="author" content="Mayerli Diaz Paz" />
+    <meta name="canonical" content="mayerlidiazpaz.com" />
+    <meta name="description" content="___" />
+    <meta name="robots" content="noindex,nofollow" />
+
+    <!-- OPEN GRAPH -->
+    <meta property="og:description" content="___" />
+    <meta property="og:url" content="https://mayerlidiazpaz.com" />
+    <meta property="og:image" content="___" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Mayerli Diaz Paz | Ventas y Marketing Digital"
+    />
+    <meta
+      property="og:site_name"
+      content="Mayerli Diaz Paz | Ventas y Marketing Digital"
+    />
+
+    <!-- ICONS -->
+    <link rel="icon" href="___" />
+    <!-- 96x96 -->
+    <link rel="apple-touch-icon" href="___" />
+    <!-- 180x180 -->
+
+    <!-- ASTRO -->
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- DOCUMENT TITLE -->
+    <title>{title}</title>
+  </head>
+
+  <body>
+    <slot />
+  </body>
+</html>
