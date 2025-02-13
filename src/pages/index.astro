@@ -3,7 +3,14 @@ import Base from '../layouts/base.astro';
 
 const currentYear = new Date().getFullYear();
 ---
-
+<style>
+.avatar-img {
+	width: fit-content;
+	height: auto;
+	border-radius: 20px;
+	transform: translateY(-8%);
+}
+</style>
 <Base title="Mayerli Diaz Paz | Ventas y Marketing Digital">
 <div class="home-3 page-wrapper" data-background="assets/img/bg/page-bg-1.jpg">
 	<!-- PRELOADER -->
@@ -56,7 +63,7 @@ const currentYear = new Date().getFullYear();
 					<div class="bostami-parsonal-info-wrap">
 						<!-- img -->
 						<div class="bostami-parsonal-info-img">
-							<img src="assets/img/parsonal-info/parson-img-3.png" alt="avatar" />
+							<img src="avatar.png" alt="avatar" class="avatar-img" />
 						</div>
 
 						<!-- name -->
