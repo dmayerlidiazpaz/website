@@ -1,317 +1,282 @@
 ---
 import Base from "../layouts/base.astro";
+
+const currentYear = new Date().getFullYear();
 ---
 
 <Base title="Mayerli Diaz Paz | Ventas y Marketing Digital">
-	<div
-		class="home-3 page-wrapper"
-		data-background="assets/img/bg/page-bg-1.jpg"
-	>
-		<!-- PRELOADER -->
-		<div id="preloader">
-			<div class="loader_line"></div>
-		</div>
-		<!-- /PRELOADER -->
+<div class="home-3 page-wrapper" data-background="assets/img/bg/page-bg-1.jpg">
+	<!-- PRELOADER -->
+	<div id="preloader">
+		<div class="loader_line"></div>
+	</div>
+	<!-- /PRELOADER -->
 
-		<!-- header-start -->
-		<div class="z-index-5 mb-30 bostami-header-area">
-			<div class="container">
-				<div class="bostami-header-wrap">
-					<div class="row">
-						<!-- logo -->
-						<div class="col-6">
-							<div class="bostami-header-logo">
-								<a class="site-logo" href="../index.html">
-									<img src="assets/img/logo/logo-2.png" alt="" />
-								</a>
-							</div>
+	<!-- header-start -->
+	<div class="z-index-5 mb-30 bostami-header-area">
+		<div class="container">
+			<div class="bostami-header-wrap">
+				<div class="row">
+					<!-- logo -->
+					<div class="col-6">
+						<div class="bostami-header-logo">
 						</div>
+					</div>
 
-						<!-- menu btn -->
-						<div class="col-6">
-							<div class="mb-0 text-right bostami-header-menu-btn">
-								<div class="dark-btn dark-btn-stored dark-btn-icon">
-									<i class="fa-light fa-moon"></i>
-									<i class="fa-light fa-sun"></i>
-								</div>
-								<div class="menu-btn toggle_menu d-lg-none">
-									<span></span>
-									<span></span>
-									<span></span>
-								</div>
+					<!-- menu btn -->
+					<div class="col-6">
+						<div class="mb-0 text-right bostami-header-menu-btn">
+							<div class="dark-btn dark-btn-stored dark-btn-icon">
+								<i class="fa-light fa-moon"></i>
+								<i class="fa-light fa-sun"></i>
+							</div>
+							<div class="menu-btn toggle_menu d-lg-none">
+								<span></span>
+								<span></span>
+								<span></span>
 							</div>
 						</div>
 					</div>
-				</div>
-
-				<!-- mobile menu -->
-				<div class="mobile-menu-wrap">
-					<div class="mobile-menu mobile_menu_3"></div>
 				</div>
 			</div>
-		</div>
-		<!-- header-end -->
 
-		<div class="z-index-3 container">
-			<div class="row">
-				<!-- parsonal-info-start -->
-				<div class="col-xxl-4 col-xl-4 col-lg-4">
-					<div class="bostami-parsonal-info-area">
-						<div class="bostami-parsonal-info-wrap">
-							<!-- img -->
-							<div class="bostami-parsonal-info-img">
-								<img
-									src="assets/img/parsonal-info/parson-img-3.png"
-									alt="avatar"
-								/>
-							</div>
-
-							<!-- name -->
-							<h4 class="bostami-parsonal-info-name">
-								<a href="#">Monalisa Ashley</a>
-							</h4>
-							<span class="mb-15 bostami-parsonal-info-bio">Ui/Ux Designer</span
-							>
-
-							<!-- socail link -->
-							<ul class="mb-30 bostami-parsonal-info-social-link">
-								<li>
-									<a href="#" class="facebook">
-										<i class="fa-brands fa-facebook-f"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="twitter">
-										<i class="fa-brands fa-twitter"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="instagram">
-										<i class="fa-brands fa-instagram"></i>
-									</a>
-								</li>
-								<li>
-									<a href="#" class="linkedin">
-										<i class="fa-brands fa-linkedin-in"></i>
-									</a>
-								</li>
-							</ul>
-
-							<!-- contact -->
-							<div class="mb-30 bostami-parsonal-info-contact">
-								<div class="bostami-parsonal-info-contact-item phone">
-									<div class="icon">
-										<i class="fa-solid fa-mobile-screen-button"></i>
-									</div>
-									<div class="text">
-										<span>Phone</span>
-										<p>+123 456 7890</p>
-									</div>
-								</div>
-
-								<div class="bostami-parsonal-info-contact-item email">
-									<div class="icon">
-										<i class="fa-envelope-open-text fa-regular"></i>
-									</div>
-									<div class="text">
-										<span>Email</span>
-										<p>example@mail.com</p>
-									</div>
-								</div>
-
-								<div class="bostami-parsonal-info-contact-item location">
-									<div class="icon">
-										<i class="fa-solid fa-location-dot"></i>
-									</div>
-									<div class="text">
-										<span>Location</span>
-										<p>Hong kong china</p>
-									</div>
-								</div>
-
-								<div class="bostami-parsonal-info-contact-item calendar">
-									<div class="icon">
-										<i class="fa-light fa-calendar-days"></i>
-									</div>
-									<div class="text">
-										<span>Birthday</span>
-										<p>May 27, 1990</p>
-									</div>
-								</div>
-							</div>
-
-							<!-- cv button -->
-							<div class="bostami-parsonal-info-btn">
-								<a class="btn-2 circle" href="#">
-									<span class="icon">
-										<i class="fa-regular fa-download"></i>
-									</span>
-									download cv
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- personal-info-end -->
-
-				<!-- about-page-start -->
-				<div class="col-xxl-8 col-xl-8 col-lg-8">
-					<!-- main-menu-start -->
-					<div class="text-right">
-						<div class="bostami-main-menu-wrap">
-							<nav class="bastami-main-menu main_menu_3">
-								<ul>
-									<li class="active">
-										<a href="home-3.html">
-											<span>
-												<i class="fa-light fa-address-card"></i>
-											</span>
-											about
-										</a>
-									</li>
-									<li>
-										<a href="resume-3.html">
-											<span>
-												<i class="fa-light fa-file-user"></i>
-											</span>
-											Resume
-										</a>
-									</li>
-									<li>
-										<a href="portfolio-3.html">
-											<span>
-												<i class="fa-light fa-briefcase"></i>
-											</span>
-											Works
-										</a>
-									</li>
-									<li>
-										<a href="blog-3.html">
-											<span>
-												<i class="fa-light fa-newspaper"></i>
-											</span>
-											Blogs
-										</a>
-									</li>
-									<li>
-										<a href="contact-3.html">
-											<span>
-												<i class="fa-light fa-address-book"></i>
-											</span>
-											contact
-										</a>
-									</li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-					<!-- main-menu-end -->
-
-					<div class="bostami-page-content-wrap">
-						<!-- page title -->
-						<div class="pt-60 pr-60 pl-60 section-wrapper">
-							<div class="mb-15 bostami-page-title-wrap">
-								<h2 class="page-title">about</h2>
-								<p>
-									I'm Creative Director and UI/UX Designer from Sydney,
-									Australia, working in web development and print media. I enjoy
-									turning complex problems into simple, beautiful and intuitive
-									designs.
-								</p>
-								<p>
-									My aim is to bring across your message and identity in the
-									most creative way. I created web design for many famous brand
-									companies.
-								</p>
-							</div>
-						</div>
-
-						<!-- what-do -->
-						<div class="pr-60 pl-60 section-wrapper">
-							<div class="mt-30 mb-20 bostami-section-title-wrap">
-								<h3 class="section-title">What I do!</h3>
-							</div>
-
-							<div class="mb-30 bostami-what-do-wrap">
-								<div class="row">
-									<!-- single item -->
-									<div class="col-xxl-6 col-xl-6 col-lg-6">
-										<div class="bg-prink bostami-what-do-item">
-											<div class="icon">
-												<i class="fa-light fa-swatchbook"></i>
-											</div>
-											<div class="text">
-												<h4 class="title">Ui/Ux Design</h4>
-												<p>
-													Lorem ipsum dolor sit amet, consectetuer adipiscing
-													elit, sed diam euismod tincidunt volutpat.
-												</p>
-											</div>
-										</div>
-									</div>
-									<!-- single item -->
-									<div class="col-xxl-6 col-xl-6 col-lg-6">
-										<div class="bg-catkrill bostami-what-do-item">
-											<div class="icon">
-												<i class="fa-grid-2 fa-regular"></i>
-											</div>
-											<div class="text">
-												<h4 class="title">App Development</h4>
-												<p>
-													Lorem ipsum dolor sit amet, consectetuer adipiscing
-													elit, sed diam euismod tincidunt volutpat.
-												</p>
-											</div>
-										</div>
-									</div>
-									<!-- single item -->
-									<div class="col-xxl-6 col-xl-6 col-lg-6">
-										<div class="bg-catkrill bostami-what-do-item">
-											<div class="icon">
-												<i class="fa-regular fa-camera-retro"></i>
-											</div>
-											<div class="text">
-												<h4 class="title">Photography</h4>
-												<p>
-													Lorem ipsum dolor sit amet, consectetuer adipiscing
-													elit, sed diam euismod tincidunt volutpat.
-												</p>
-											</div>
-										</div>
-									</div>
-									<!-- single item -->
-									<div class="col-xxl-6 col-xl-6 col-lg-6">
-										<div class="bg-blue bg-prink bostami-what-do-item">
-											<div class="icon">
-												<i class="fa-regular fa-code"></i>
-											</div>
-											<div class="text">
-												<h4 class="title">Web Development</h4>
-												<p>
-													Lorem ipsum dolor sit amet, consectetuer adipiscing
-													elit, sed diam euismod tincidunt volutpat.
-												</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<!-- footer copyright -->
-						<div class="footer-copyright pt-25 pb-25 text-center">
-							<span
-								>© 2024 All Rights Reserved by <a
-									href="https://themeforest.net/user/elite-themes24"
-									target="_blank"
-									rel="noopener noreferrer">elite-themes24</a
-								>.</span
-							>
-						</div>
-					</div>
-				</div>
-				<!-- about-page-end -->
+			<!-- mobile menu -->
+			<div class="mobile-menu-wrap">
+				<div class="mobile-menu mobile_menu_3"></div>
 			</div>
 		</div>
 	</div>
+	<!-- header-end -->
+
+	<div class="z-index-3 container">
+		<div class="row">
+			<!-- parsonal-info-start -->
+			<div class="col-xxl-4 col-xl-4 col-lg-4">
+				<div class="bostami-parsonal-info-area">
+					<div class="bostami-parsonal-info-wrap">
+						<!-- img -->
+						<div class="bostami-parsonal-info-img">
+							<img src="assets/img/parsonal-info/parson-img-3.png" alt="avatar" />
+						</div>
+
+						<!-- name -->
+						<h4 class="bostami-parsonal-info-name">
+							Mayerli Diaz Paz
+						</h4>
+						<span class="mb-15 bostami-parsonal-info-bio">
+							Ventas y Marketing Digital
+						</span>
+
+						<!-- socail link -->
+						<ul class="mb-30 bostami-parsonal-info-social-link">
+							<li>
+								<a href="#" class="linkedin">
+									<i class="fa-brands fa-linkedin-in"></i>
+								</a>
+							</li>
+						</ul>
+
+						<!-- contact -->
+						<div id="contact-section" class="mb-30 bostami-parsonal-info-contact">
+							<div class="bostami-parsonal-info-contact-item phone">
+								<div class="icon">
+									<i class="fa-solid fa-mobile-screen-button"></i>
+								</div>
+								<div class="text">
+									<span>Teléfono</span>
+									<p>+00 00 00 00</p>
+								</div>
+							</div>
+
+							<div class="bostami-parsonal-info-contact-item email">
+								<div class="icon">
+									<i class="fa-envelope-open-text fa-regular"></i>
+								</div>
+								<div class="text">
+									<span>Correo electrónico</span>
+									<p style="text-transform: lowercase;">dmayerlidiazpaz@gmail.com</p>
+								</div>
+							</div>
+
+							<div class="bostami-parsonal-info-contact-item location">
+								<div class="icon">
+									<i class="fa-solid fa-location-dot"></i>
+								</div>
+								<div class="text">
+									<span>Residencia</span>
+									<p>Estados Unidos</p>
+								</div>
+							</div>
+
+						</div>
+
+						<!-- cv button -->
+						<div id="cv-button" class="bostami-parsonal-info-btn">
+							<a class="btn-2 circle" download href="docs/cv.mayerlidiaz.pdf">
+								<span class="icon">
+									<i class="fa-regular fa-download"></i>
+								</span>
+								Descargar CV
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- personal-info-end -->
+
+			<!-- about-page-start -->
+			<div class="col-xxl-8 col-xl-8 col-lg-8">
+				<!-- main-menu-start -->
+				<div class="text-right">
+					<div class="bostami-main-menu-wrap">
+						<nav class="bastami-main-menu main_menu_3">
+							<ul>
+								<li class="active">
+									<a href="#about-section">
+										<span>
+											<i class="fa-light fa-address-card"></i>
+										</span>
+										Información
+									</a>
+								</li>
+								<li>
+									<a href="#cv-button">
+										<span>
+											<i class="fa-light fa-file-user"></i>
+										</span>
+										Currículum
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>
+											<i class="fa-light fa-briefcase"></i>
+										</span>
+										Trabajos
+									</a>
+								</li>
+								<li>
+									<a href="#contact-section">
+										<span>
+											<i class="fa-light fa-address-book"></i>
+										</span>
+										Contacto
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<!-- main-menu-end -->
+
+				<div class="bostami-page-content-wrap">
+					<!-- page title -->
+					<div id="about-section" class="pt-60 pr-60 pl-60 section-wrapper">
+						<div class="mb-15 bostami-page-title-wrap">
+							<h2 class="page-title">Acerca de mí</h2>
+							<p>
+								Impulso las ventas y el reconocimiento de marcas mediante
+								estrategias de marketing con un enfoque centrado en el
+								cliente. Mi experiencia en promoción de múltiples productos me
+								ha permitido desarrollar habilidades en ventas, atención al
+								cliente, marketing digital y liderazgo de procesos
+								comerciales.
+							</p>
+							<p>
+								Me especializo en mejorar la experiencia del cliente al
+								identificar oportunidades de crecimiento y desarrollar
+								estrategias para alcanzar los objetivos de la empresa. A
+								través del marketing y la gestión de ventas, busco generar
+								conexiones significativas que fortalezcan la relación con los
+								consumidores y maximicen resultados.
+							</p>
+						</div>
+					</div>
+
+					<!-- what-do -->
+					<div class="pr-60 pl-60 section-wrapper">
+						<div class="mt-30 mb-20 bostami-section-title-wrap">
+							<h3 class="section-title">Mis competencias</h3>
+						</div>
+
+						<div class="mb-30 bostami-what-do-wrap">
+							<div class="row">
+								<!-- single item -->
+								<div class="col-xxl-6 col-xl-6 col-lg-6">
+									<div class="bg-prink bostami-what-do-item">
+										<div class="icon">
+											<i class="fa-solid fa-chart-line"></i>
+										</div>
+										<div class="text">
+											<h4 class="title">Ventas B2C</h4>
+											<p>
+												Me especializo en ventas directas y fidelización, con
+												tácticas adaptativas a las necesidades del cliente y
+												los objetivos de la empresa.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- single item -->
+								<div class="col-xxl-6 col-xl-6 col-lg-6">
+									<div class="bg-catkrill bostami-what-do-item">
+										<div class="icon">
+											<i class="fa-regular fa-eye"></i>
+										</div>
+										<div class="text">
+											<h4 class="title">Análisis UX</h4>
+											<p>
+												Identifico oportunidades de mejora en la experiencia
+												del cliente, con el fin de fortalecer procesos y
+												aumentar su satisfacción.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- single item -->
+								<div class="col-xxl-6 col-xl-6 col-lg-6">
+									<div class="bg-catkrill bostami-what-do-item">
+										<div class="icon">
+											<i class="fa-regular fa-camera-retro"></i>
+										</div>
+										<div class="text">
+											<h4 class="title">Imágen de marca</h4>
+											<p>
+												Gestionar la percepción de una marca, asegurando
+												coherencia entre su identidad, valores y la
+												experiencia del cliente.
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- single item -->
+								<div class="col-xxl-6 col-xl-6 col-lg-6">
+									<div class="bg-blue bg-prink bostami-what-do-item">
+										<div class="icon">
+											<i class="fa-regular fa-users"></i>
+										</div>
+										<div class="text">
+											<h4 class="title">Liderazgo</h4>
+											<p>
+												Dirijo equipos de innovación en proyectos de marketing y ventas.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- footer copyright -->
+					<div class="footer-copyright pt-25 pb-25 text-center">
+						<span>
+							© {currentYear} Rights Reserved to Mayerli Diaz Paz
+						</span>
+					</div>
+				</div>
+			</div>
+			<!-- about-page-end -->
+		</div>
+	</div>
+</div>
 </Base>
